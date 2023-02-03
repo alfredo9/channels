@@ -2,7 +2,7 @@ body {
     font-family: "Raleway", sans-serif;
     padding: 10px;
     background: linear-gradient(135deg, #b04, #f80) fixed;
-    font-size: 32px;
+    font-size: xxx-large;
 }
 
 section {
@@ -11,8 +11,9 @@ section {
     display: flex;
     /* grid-template-columns: repeat(auto-fill, 224px); */
     /* grid-auto-rows: minmax(60px, auto); */
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
 }
 
 .channel {
@@ -24,11 +25,11 @@ section {
     color: rgba(255, 255, 255, 0.9);
     border-top-left-radius: 20px;
     border-radius: 20px 5px;
-    min-width: 380px;
+    min-width: 448px;
 }
 
 button {
-    width: 100px;
+    width: 140px;
     /* margin: -3px 5px; */
     border-radius: 5px;
     /* padding: 2px; */
@@ -38,9 +39,6 @@ button {
 
 .topRight {
     position: absolute;
-    /* top: 4px; */
-    /*   left: 20px; */
-    right: 6px;
-    /*   opacity: 70%; */
-
+    top: 18px;
+    right: 24px;
 }
