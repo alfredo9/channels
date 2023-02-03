@@ -1,0 +1,40 @@
+body {
+  font-family: "Raleway", sans-serif;
+  padding: 10px;
+  background: linear-gradient(135deg, #b04, #f80) fixed;
+}
+
+section {
+  max-width: 1000px;
+  margin: 5px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 224px);
+  grid-auto-rows: minmax(60px, auto);
+  justify-content: space-evenly;
+}
+
+.channel {
+  position: relative;
+  padding: 20px 10px;
+  background-color: rgba(255, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.9);
+  border-top-left-radius: 20px;
+  border-radius: 20px 5px;
+}
+
+button {
+  width: 60px;
+  margin: -3px 5px;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.topRight {
+  position: absolute;
+  top: 4px;
+  /*   left: 20px; */
+  right: 6px;
+  /*   opacity: 70%; */
+}
