@@ -1,2 +1,2 @@
 # channels
-Over the air channels received at 92139
+Over the air channels received in San Diego, CA
