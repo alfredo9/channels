@@ -2,15 +2,17 @@ body {
     font-family: "Raleway", sans-serif;
     padding: 10px;
     background: linear-gradient(135deg, #b04, #f80) fixed;
+    font-size: 32px;
 }
 
 section {
     /* max-width: 1000px; */
-    margin: 5px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 224px);
+    /* margin: 5px auto; */
+    display: flex;
+    /* grid-template-columns: repeat(auto-fill, 224px); */
     /* grid-auto-rows: minmax(60px, auto); */
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .channel {
@@ -22,13 +24,16 @@ section {
     color: rgba(255, 255, 255, 0.9);
     border-top-left-radius: 20px;
     border-radius: 20px 5px;
+    min-width: 380px;
 }
 
 button {
-    width: 48px;
+    width: 100px;
     /* margin: -3px 5px; */
-    border-radius: 6px;
-    padding: 2px;
+    border-radius: 5px;
+    /* padding: 2px; */
+    border-width: thin;
+    font-size: inherit;
 }
 
 .topRight {
