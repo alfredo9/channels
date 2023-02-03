@@ -41,4 +41,5 @@ button {
     position: absolute;
     top: 18px;
     right: 24px;
+    scale: 2;
 }
